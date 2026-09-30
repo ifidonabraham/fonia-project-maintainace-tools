@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Fonia Labs endorsement badge: "A Fonia Labs Product".
+     Used in the footer of every Fonia Labs product, including Fonia Projects. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="262" height="48" viewBox="0 0 262 48" fill="none" role="img" aria-label="A Fonia Labs Product">
+  <defs>
+    <radialGradient id="orb" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="28%" stop-color="#7dd3fc"/>
+      <stop offset="62%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="261" height="47" rx="23.5" fill="#0f172a" stroke="rgba(56,189,248,0.3)"/>
+  <g transform="translate(12,10) scale(0.44)">
+    <circle cx="32" cy="32" r="28" stroke="#cbd5e1" stroke-width="3.6" stroke-opacity="0.55" stroke-linecap="round" stroke-dasharray="38.5 5.5" transform="rotate(-45 32 32)"/>
+    <circle cx="32" cy="32" r="14" stroke="#38bdf8" stroke-width="2.2" stroke-opacity="0.6" stroke-linecap="round" stroke-dasharray="18 3.8" transform="rotate(-45 32 32)"/>
+    <circle cx="32" cy="32" r="8" fill="url(#orb)"/>
+  </g>
+  <text x="50" y="30" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="0.2" fill="#bae6fd">A Fonia Labs Product</text>
+</svg>

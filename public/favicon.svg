@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Fonia Labs favicon — the O-core origin mark. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#070b16"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="14" y1="14" x2="50" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e2e8f0"/>
+      <stop offset="1" stop-color="#475569"/>
+    </linearGradient>
+    <radialGradient id="core" cx="50%" cy="42%" r="60%">
+      <stop offset="0%" stop-color="#bae6fd"/>
+      <stop offset="45%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bg)"/>
+  <path d="M32 13 A19 19 0 0 1 51 32" stroke="url(#ring)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M32 51 A19 19 0 0 1 13 32" stroke="url(#ring)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M41 23 A13 13 0 0 1 41 41" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="32" cy="32" r="7" fill="url(#core)"/>
+</svg>
