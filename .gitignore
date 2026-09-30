@@ -31,3 +31,4 @@ yarn-error.log*
 *.log
 .vercel
 .kombai/
+.env*
